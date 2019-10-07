@@ -10,8 +10,8 @@ public class rollDie
     // 2) Constructors
     public rollDie()
     {
-        side = 0;
-        howManyRoll = 0;
+        side = 2;
+        howManyRoll = 1;
         wantRoll = false;
     } //end default constructor
 
