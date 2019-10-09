@@ -6,9 +6,10 @@ public class RollDieDriver
         rollDie die1 = new rollDie(true, 4, 2);
 
         // 2. Print it out
-        System.out.println(die1);
+       // System.out.println(die1);
 
         // 3. Test getters
+        System.out.println(die1.getSide());
 
         // 4. Test setters
 
