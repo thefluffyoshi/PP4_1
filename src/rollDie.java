@@ -6,7 +6,7 @@ public class rollDie
     int howManyRoll;
     int numRoll;
 
-    
+
     // 2) Constructors
     public rollDie()
     {
@@ -24,7 +24,7 @@ public class rollDie
         numRoll = newNumRoll;
     } //end multi constructor
 
-    
+
     // 3) Getters
     public boolean getWantRoll()
     {
@@ -41,12 +41,22 @@ public class rollDie
         return howManyRoll;
     }//end howManyRoll getter
 
-    
+
     // 4) Setters
     public void setSide(int newSide)
     {
         side = newSide;
     }//end side setter
+    
+    public void setWantRoll(boolean newWantRoll)
+    {
+        wantRoll = newWantRoll;
+    }
+    
+    public void setHowManyRoll(int newHowManyRoll)
+    {
+        howManyRoll = newHowManyRoll;
+    }
 
 
     // 5) toString
@@ -58,8 +68,8 @@ public class rollDie
         output += "\nSide: " + side;
         return output;
     }//end toString
-    
-    
+
+
     // 6) Brain Method
     private int checkSide(int newSide)
     {
