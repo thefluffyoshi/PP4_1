@@ -85,4 +85,9 @@ public class rollDie
         }//end else if
         return tempSide;
     }//end validating that it's actually rollable checkSide
+    
+    private int checkWantRoll()
+    {
+        
+    }
 } //end class rollDie
