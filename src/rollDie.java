@@ -1,3 +1,4 @@
+import java.lang.Math;
 public class rollDie
 {
     // 1) Instance variables
@@ -47,12 +48,12 @@ public class rollDie
     {
         side = newSide;
     }//end side setter
-    
+
     public void setWantRoll(boolean newWantRoll)
     {
         wantRoll = newWantRoll;
     }
-    
+
     public void setHowManyRoll(int newHowManyRoll)
     {
         howManyRoll = newHowManyRoll;
