@@ -5,7 +5,7 @@ public class rollDie
     boolean wantRoll;
     int side;
     int howManyRoll;
-    int numRoll;
+    double numRoll;
 
 
     // 2) Constructors
@@ -17,12 +17,12 @@ public class rollDie
         wantRoll = false;
     } //end default constructor
 
-    public rollDie(boolean newWantRoll, int newSide, int newHowManyRoll, int newNumRoll)
+    public rollDie(boolean newWantRoll, int newSide, int newHowManyRoll)
     {
         wantRoll = newWantRoll;
         howManyRoll = newHowManyRoll;
         side = checkSide(newSide);
-        numRoll = newNumRoll;
+        //numRoll = newNumRoll;
     } //end multi constructor
 
 
@@ -85,9 +85,14 @@ public class rollDie
         }//end else if
         return tempSide;
     }//end validating that it's actually rollable checkSide
-    
+
     private int checkWantRoll()
     {
-        
-    }
+    }//end validating if they actually want to roll
+
+
+    // 7) Brain Method
+    //output number that die rolled
+    
+    
 } //end class rollDie
